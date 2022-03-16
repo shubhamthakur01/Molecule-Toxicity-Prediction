@@ -1,0 +1,9 @@
+pandas==0.23.3
+numpy==1.15.3
+scikit-learn
+keras
+tensorflow
+matplotlib
+jupyterlab
+html5lib==1.0.1
+pydot
