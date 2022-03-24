@@ -12,7 +12,7 @@ We used both image and tabular data for our task and applied explainable AI sepa
 
 **Image Data:** Tox-21 challenge 2014
 
-<img src="images/fingerprint_data.png" width="350" height="200" />  <img src="images/conformation_generation.png" width="350" height="200" /> 
+<img src="images/fingerprint_data.png" width="400" height="200" />  <img src="images/conformation_generation.png" width="400" height="200" /> 
 
 The data-augmentation(conformation generation) is done by a researcher at the University of Vienna
 
@@ -52,7 +52,7 @@ We used a tree interpreter as a proxy to understand the local decision boundary 
 
 Here is one of the toxic molecules that was predicted as toxic with a probability of 0.87 using a deep neural net. The local linear model was fairly accurate with an accuracy of 0.8. We decided to see if the lime is picking the same segment across conformers.
 
-<img src="images/results.png" width="600" height="300" /> 
+<img src="images/results.png" width="800" height="300" /> 
 
 The local model picked 6 out 8 times the same tox alert which shows the promising potential of explainable AI in Toxicity prediction. Similarly, we found some patterns in the tabular data. The details and further references are added to the presentation.
 
