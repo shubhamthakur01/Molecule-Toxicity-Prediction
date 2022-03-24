@@ -29,7 +29,7 @@ Say we want to explain prediction for an observation. We will follow these steps
 
 We used the Jaccard score to estimate the similarity between the two observation
 
-$ w_i = \sqrt{ \dfrac{exp(-d_i)}{wd^2}} $
+<img src="https://render.githubusercontent.com/render/math?math=w_i = \sqrt{ \dfrac{exp(-d_i)}{wd^2}}">
 
 where d is the distance between two points(Jaccard Similarity in our case).\
 wd is a scaling parameter
